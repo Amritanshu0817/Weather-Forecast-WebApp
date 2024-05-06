@@ -16,30 +16,33 @@
     align-items: center;
     justify-content: center;
     padding: 10px;
-    gap: 10px;
+    /* gap: 10px; */
     cursor: pointer;
 }
 
 .top-bar input{
-    padding: 14px;
-    border-radius: 15px;
-    width: 250px;
+    padding: 12px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 320px;
     font-weight: 600;
     color: rgb(0, 0, 0);
+    background-color: white;
     border: none;
     font-size: 20px;
 }
 
 .searchicon{
     
-    height: 45px;
-    width: 45px;
-    background-color: rgb(251, 251, 251);
+    height: 47px;
+    width: 52px;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     border: none;
-    border-radius: 30px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .weatherinfo{
