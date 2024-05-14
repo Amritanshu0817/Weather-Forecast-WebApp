@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    height: 100vh;
+    width: 100%;
+    background-image: url("C:\Users\HP\Desktop\React\weather_forecast\src\Components\Items\bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    border: 2px solid rgba(35, 209, 185, 0.589);
+    backdrop-filter: blur(7px);
+    color: white;
+}
+
+.dleft{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.top{
+    padding: 30px;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottom{
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tempdis{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.day{
+    font-size: 20px;
+}
+.dright{
+    height: 100%;
+    width: 45%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.searching{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1.5px solid #ffffff;
+}
+
+.searching input{
+    background: none;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sicon{
+    padding: 7px;
+    background-color:#232222;
+    border-radius: 20px;
+}
+.searching input::placeholder{
+    color: black;
+}
+
+.displaycon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.png img{
+    height: 220px;
+    width: 220px;
+}
+.info{
+    font-size: 32px;
+}
+.moreinfo{
+    font-size: 19px;
+}
+
+.responses{
+    display: flex;
+    flex-direction: column;
+}
+
+.tempr{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 6px 29px;
+    border-top: 1px solid whitesmoke;
+    font-size: 16px;
+}
