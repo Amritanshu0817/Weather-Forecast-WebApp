@@ -82,6 +82,7 @@
     padding: 7px;
     background-color:#232222;
     border-radius: 20px;
+    cursor: pointer;
 }
 .searching input::placeholder{
     color: black;
