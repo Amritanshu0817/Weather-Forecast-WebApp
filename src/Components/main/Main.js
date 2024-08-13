@@ -17,7 +17,6 @@ const Main = () => {
     const [Wicon, setWicon] = useState(sunny);
 
 
-
     useEffect(() => {
         const interval = setInterval(() => {
           setDateTime(new Date());
@@ -60,7 +59,7 @@ const Main = () => {
         const visibility = document.getElementsByClassName("visib");
 
         name[0].innerHTML = data.name + ", " + data.sys.country;
-        tempr[0].innerHTML = data.main.temp + "°C";
+        tempr[0].innerHTML = data.main.temp + " °C";
         wtype[0].innerHTML = data.weather[0].main;
         description[0].innerHTML = data.weather[0].description;
         feels[0].innerHTML = data.main.feels_like+ " °C";
@@ -110,6 +109,9 @@ const Main = () => {
             Gurugram, IN
             </div>
             <div className="bottom">
+                <div className="tempdis">
+                    32.5 °C 
+                </div>
                 <div className="date">
                     <div className="time">
                         {time}
@@ -117,11 +119,7 @@ const Main = () => {
                     <div className="day">
                         {formattedDate}
                     </div>
-                </div>
-                
-                <div className="tempdis">
-                    
-                </div>
+                </div> 
             </div>
            </div>
            <div className="dright">
