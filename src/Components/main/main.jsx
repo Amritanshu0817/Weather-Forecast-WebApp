@@ -126,7 +126,7 @@ const Main = () => {
            </div>
            <div className="dright">
             <div className="searching">
-            <input placeholder='Search For City' className='cityname'></input>
+            <input placeholder='Search For City' className='cityname' onSubmit={() => (searchCity())}></input>
             <span><img src={search} alt="icon" className='sicon' onClick={()=> (searchCity())}/></span>
             </div>
             <div className="displaycon">
